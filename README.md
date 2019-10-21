@@ -1,5 +1,11 @@
 # data_products
 
+Presentation
+http://rpubs.com/rpubskhan/course_final
+
+SHINY APP
+https://makkwt.shinyapps.io/shiny1/
+
 This application is based on linear regression algorithm and using ROCK datasets.The application predictsthe Permutation of a rock based on variable shape.
 Rock dataset is a  data frame with 48 rows and 4 numeric columns.Twelve core samples from petroleum reservoirs were sampled by 4 cross-sections. Each core sample was measured for permeability, and each cross-section has total area of pores, total perimeter of pores, and shape.
 
