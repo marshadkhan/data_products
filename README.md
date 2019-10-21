@@ -13,3 +13,11 @@ Dataset Details
 2.  peri	perimeter in pixels
 3. 	shape	perimeter/sqrt(area)
 4.  perm	permeability in milli-Darcies
+
+Deliverables
+
+Presentation
+http://rpubs.com/rpubskhan/course_final
+
+SHINY APP
+https://makkwt.shinyapps.io/shiny1/
