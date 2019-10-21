@@ -1,0 +1,46 @@
+Measurement on Petroleum Rock Samples
+========================================================
+author: Muhammad Arshad Khan
+date:   21-Oct-2019
+autosize: true
+
+Introduction
+========================================================
+In this application we have utilized R dataset ROCK and the presentation will cover,
+
+- Data Exploration
+- Data Visualization
+- Statistics Tests
+
+Data Exploration
+========================================================
+In this we will perform some basic exploratory data analysis
+
+```{r}
+# Explore Dataset
+head(rock)
+#There are 48 rows and 4 columns for this dataset
+dim(rock)
+#Averages and Distributions of Datset are depicted as below
+summary(rock)
+```
+
+
+Data Visualizations
+========================================================
+In this slide we have perfomed the Data Visualization .This will help us to determine the Distribution followed by dataset.We have also plotted Shape and Permutation variable from Rock dataset.
+```{r, echo=FALSE}
+hist(rock$area,col="lightblue", ylim=c(0,10))
+hist(rock$shape,col="red", ylim=c(0,10))
+hist(rock$peri,col="green", ylim=c(0,10))
+hist(rock$perm,col="blue", ylim=c(0,10))
+plot(rock$shape, rock$perm, xlab = "Shape",ylab = "Permeability")
+```
+
+Statistical Tests
+========================================================
+In this we will perform some basic statistical test and determines the coorelation between the data frme variables
+```{r, echo=TRUE}
+cor(rock)
+```
+
